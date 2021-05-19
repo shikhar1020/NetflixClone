@@ -1,5 +1,5 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
-import { fetchCount } from "./counter/counterAPI";
+import { createSlice } from "@reduxjs/toolkit";
+// import { fetchCount } from "./counter/counterAPI";
 
 export const userSlice = createSlice({
   name: "user",

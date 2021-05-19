@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import logo from "../../headLogo.png";
 import SignUp from "../../components/SignUp/SignUp";
 import "./style.css";
 
@@ -9,7 +10,8 @@ function Login() {
       <div className="loginBackground">
         <img
           className="loginLogo"
-          src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+          src={logo}
+          // src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
           alt="Netflix Logo"
         />
         {!signIn && (

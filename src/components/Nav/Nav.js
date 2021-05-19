@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import logo from "../../headLogo.png";
 import "./style.css";
 
 function Nav() {
@@ -20,11 +21,7 @@ function Nav() {
   return (
     <div className={`nav  ${show && `navBlack`}`}>
       <div className="navContent">
-        <img
-          className="navLogo"
-          src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
-          alt="Netflix Logo"
-        />
+        <img className="navLogo" src={logo} alt="Netflix Logo" />
         <img
           className="navAvatar"
           src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"

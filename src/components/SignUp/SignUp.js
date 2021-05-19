@@ -20,7 +20,7 @@ function SignUp() {
       )
       .then((authUser) => {
         console.log(authUser);
-        alert(`Sign In Sucessufull ${emailRef.current.value}`);
+        // alert(`Sign In Sucessufull ${emailRef.current.value}`);
       })
       .catch((error) => {
         alert(error.message);
@@ -37,7 +37,7 @@ function SignUp() {
       )
       .then((authUser) => {
         console.log(authUser);
-        alert(`Sign In Sucessufull ${emailRef.current.value}`);
+        // alert(`Sign In Sucessufull ${emailRef.current.value}`);
       })
       .catch((error) => alert(error.message));
   };

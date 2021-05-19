@@ -1,0 +1,10 @@
+To create react app with redux template
+npx create-react-app netflix-clone --template redux
+
+npm install -g firebase-tools
+
+firebase login
+
+firebase init
+
+firebase deploy

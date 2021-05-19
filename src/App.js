@@ -9,11 +9,11 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
-  const user = useSelector(selectUser);
+  // const user = useSelector(selectUser);
 
-  // const user = {
-  //   name: "Sangam",
-  // };
+  const user = {
+    name: "Sangam",
+  };
 
   // useEffect(() => {
   //   console.log("User Data is ", user);

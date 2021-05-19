@@ -20,6 +20,7 @@ function Profile() {
           <div className="profileDetail">
             <h2>sangam@gmail.com</h2>
             <div className="profilePlans">
+              <h3>Plans</h3>
               <button onClick={() => auth.signOut} className="signOutButton">
                 Sign Out
               </button>

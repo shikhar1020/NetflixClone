@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import logo from "../../headLogo.png";
 import "./style.css";
 
@@ -21,12 +22,16 @@ function Nav() {
   return (
     <div className={`nav  ${show && `navBlack`}`}>
       <div className="navContent">
-        <img className="navLogo" src={logo} alt="Netflix Logo" />
-        <img
-          className="navAvatar"
-          src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"
-          alt="Avatar"
-        />
+        <Link to="/">
+          <img className="navLogo" src={logo} alt="Netflix Logo" />
+        </Link>
+        <Link to="/profile">
+          <img
+            className="navAvatar"
+            src="https://pbs.twimg.com/profile_images/1240119990411550720/hBEe3tdn_400x400.png"
+            alt="Avatar"
+          />
+        </Link>
       </div>
     </div>
   );

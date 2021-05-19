@@ -9,11 +9,11 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import "./App.css";
 
 function App() {
-  // const user = useSelector(selectUser);
+  const user = useSelector(selectUser);
 
-  const user = {
-    name: "Sangam",
-  };
+  // const user = {
+  //   name: "Sangam",
+  // };
 
   // useEffect(() => {
   //   console.log("User Data is ", user);
@@ -22,8 +22,7 @@ function App() {
   const dispatch = useDispatch();
 
   useEffect(() => {
-    // const unsubscribe =
-    auth.onAuthStateChanged((userAuth) => {
+    const unsubscribe = auth.onAuthStateChanged((userAuth) => {
       if (userAuth) {
         dispatch(
           login({
@@ -31,14 +30,14 @@ function App() {
             email: userAuth.email,
           })
         );
-        console.log(userAuth);
+        // console.log(userAuth);
       } else {
-        dispatch(logout);
+        dispatch(logout());
       }
     });
 
-    // return unsubscribe;
-  }, []);
+    return unsubscribe;
+  }, [dispatch]);
 
   return (
     <div className="app">

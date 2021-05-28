@@ -1,17 +1,40 @@
-To visit the live site visit [Netflix Clone](https://netflix-clone-500d3.web.app/)🚀 built with [React Js](https://reactjs.org/) and [Firebase](https://firebase.google.com/). 🎨
+To visit the live site visit [Netflix Clone](https://netflix-clone-500d3.web.app/)🚀 built with [React Js](https://reactjs.org/), [Firebase](https://firebase.google.com/) and [TMDB](https://www.themoviedb.org). 🎨
+
+**Test Credentials: _sangam@gmail.com | 123456_**
 
 
 ## **Preview**
 
-### `Sign In With Google`: Click on the "Sign In" Button to sign in with your Google Account.
-![image](https://user-images.githubusercontent.com/54438024/120001910-e7af9700-bff1-11eb-8c4e-c61f68e36bb3.png)
+### `HomePage`: Click on the "Sign In" Button (at the top right) to get Sign In and Sign In App.
+![image](https://user-images.githubusercontent.com/54438024/120026955-6e736c80-c010-11eb-85a7-7c8328614462.png)
 
-### `Add New Room`: Click on "Add New Chat+" Button to create your own room and chat with your friends.
-![image](https://user-images.githubusercontent.com/54438024/120003196-22fe9580-bff3-11eb-80a7-2409d78db2f6.png)
+### `Sign UP`: Enter "Email" and "Password", then click on _"Sign Up now"_ to Register into the app.
+![image](https://user-images.githubusercontent.com/54438024/120028481-5ef52300-c012-11eb-90c6-5e20ae91dcc1.png)
 
-### `Chat Page`: Wooho! Now you can chat with your friends and get a WhatsApp like experience.
-![image](https://user-images.githubusercontent.com/54438024/120002769-c4391c00-bff2-11eb-8d70-6ca2997638bc.png)
+### `Sign IN`: Same Email and Password can be used to Sign In i.e. click on "Sign In" button to the app.
+![image](https://user-images.githubusercontent.com/54438024/120029131-4f2a0e80-c013-11eb-9713-fc4f4c448ae3.png)
 
+### `Home Page`: "Sign In" to the app takes the user to the Homepage.
+_The Movie that appears on the homepage header changes everytime when the page is loaded!_
+<br/>
+_Movie Data comes from TMDB API (screenshot below shows the movie list at 50% browser width)!_
+![image](https://user-images.githubusercontent.com/54438024/120030486-2acf3180-c015-11eb-8b2a-ac0a80692122.png)
+![image](https://user-images.githubusercontent.com/54438024/120031071-e7c18e00-c015-11eb-85cd-611ec27b27dd.png)
+
+### `Watch tailer of Movies`: Clicking on Movies Poster open the trailer of the movie in the youtube inside the app.
+_***Note:** Clicking back on the Movie Poster Closes the Trailer and hence Youtube!_
+![image](https://user-images.githubusercontent.com/54438024/120031815-ee043a00-c016-11eb-81e8-3181a6a4086e.png)
+
+
+
+
+
+
+### `Profile`: Click on "Blue Box" (on the top right) to get to the Profile Page.
+_Go get back to the HomePage from Profile Page, click on the "Netflix" icon on the top left!_
+![image](https://user-images.githubusercontent.com/54438024/120029648-00c93f80-c014-11eb-977f-a24fac48823c.png)
+
+### `Sign Out`: Click on "Sign Out" button in the profile page to Sign out of the app.
 
 
 ## Run on local PC 💻

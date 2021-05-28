@@ -1,4 +1,4 @@
-To visit the live site visit [WhatsApp Clone](https://netflix-clone-500d3.web.app/)🚀 built with [React Js](https://reactjs.org/) and [Firebase](https://firebase.google.com/). 🎨
+To visit the live site visit [Netflix Clone](https://netflix-clone-500d3.web.app/)🚀 built with [React Js](https://reactjs.org/) and [Firebase](https://firebase.google.com/). 🎨
 
 
 ## **Preview**
